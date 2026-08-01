@@ -1,0 +1,8 @@
+This project has no server-side dependencies.
+All libraries are loaded in index.html:
+
+- TensorFlow.js (cdn.jsdelivr.net)
+- Teachable Machine Image Library (teachablemachine.withgoogle.com)
+- DM Sans, DM Serif Display, Bebas Neue (Google Fonts)
+
+To run locally: right click, open index.html with VS Code Live Server
