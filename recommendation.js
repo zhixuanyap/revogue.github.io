@@ -417,7 +417,7 @@ function validateNoHallucinatedItems(explanation, chosenItems) {
 
 async function callGemini(prompt) {
   var apiKey = (typeof GEMINI_API_KEY !== 'undefined') ? GEMINI_API_KEY : '';
-  if (!apiKey || apiKey === 'AQ.Ab8RN6LCVOwdWmhOkJRWUHbBOCPmWswhvxX7a7oG7IQOuBfw_g') {
+  if (!apiKey || apiKey === 'paste-your-actual-key-here') {
     throw new Error('API key not set');
   }
   var url = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=' + apiKey;
